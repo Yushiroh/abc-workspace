@@ -6,21 +6,21 @@ module.exports = {
 
   networks:{
     arbsep:{
-      url:"",
-      accounts:[],
+      url:"https://arb-sepolia.g.alchemy.com/v2/B0tuod1EcfnHMgAQRWfW5EezJOkVkP8G",
+      accounts:["3e620912cc910301623cbf4fa6559b442736d087c80ee7711c2b76aa97d11511"],
     }
   },
   etherscan:{
     apiKey:{
-      arbsep: ""
+      arbsep: "7JZNQAZQDJZPBAC6YQYCFURXBZIACH6VG3"
     },
     customChains:[
       {
         network: "arbsep",
         chainId: 421614,
         urls:{
-          apiURL: "",
-          browserURL: ""
+          apiURL: "https://api-sepolia.arbiscan.io/api",
+          browserURL: "https://sepolia.arbiscan.io/"
         }
       }
     ]
